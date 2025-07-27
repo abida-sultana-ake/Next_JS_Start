@@ -6,11 +6,15 @@ const Navbar = () => {
     <div>
       <nav className="flex justify-center  bg-gray-500 p-7">
         <ul className="flex justify-between w-1/3">
-          <Link>
+          <Link href="/"> 
             <li>Home</li>
           </Link>
-          <li>Service</li>
-          <li>About</li>
+          <Link  href="/services">
+            <li>Service</li>
+          </Link>
+          <Link  href="/about">
+            <li>About</li>
+          </Link>
         </ul>
       </nav>
     </div>
