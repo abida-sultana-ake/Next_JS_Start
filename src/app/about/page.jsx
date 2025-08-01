@@ -20,7 +20,7 @@ export default function () {
         <Link href="/about/address">Address Page</Link>
       </p>
       <button type="button" onClick={handleNavigation}>
-        On moodddd
+        On mood
       </button>
     </div>
   );
